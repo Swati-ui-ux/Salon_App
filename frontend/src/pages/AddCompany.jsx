@@ -153,6 +153,9 @@ const deleteCompany = async (id) => {
 
           <input
             type="text"
+            required
+            name="companyName"
+            placeholder="Company Name"  
             name="companyName"
             placeholder="Company Name"
             value={formData.companyName}
@@ -163,6 +166,7 @@ const deleteCompany = async (id) => {
           <input
             type="text"
             name="industry"
+            required
             placeholder="Industry"
             value={formData.industry}
             onChange={handleChange}
@@ -172,6 +176,7 @@ const deleteCompany = async (id) => {
           <input
             type="text"
             name="companySize"
+            required
             placeholder="Company Size"
             value={formData.companySize}
             onChange={handleChange}
@@ -181,6 +186,7 @@ const deleteCompany = async (id) => {
           <input
             type="text"
             name="website"
+            required
             placeholder="Website"
             value={formData.website}
             onChange={handleChange}
@@ -190,6 +196,7 @@ const deleteCompany = async (id) => {
           <input
             type="text"
             name="hrName"
+            required
             placeholder="HR Name"
             value={formData.hrName}
             onChange={handleChange}
@@ -199,6 +206,7 @@ const deleteCompany = async (id) => {
           <input
             type="email"
             name="hrEmail"
+            required
             placeholder="HR Email"
             value={formData.hrEmail}
             onChange={handleChange}
@@ -208,6 +216,7 @@ const deleteCompany = async (id) => {
           <input
             type="text"
             name="location"
+            required
             placeholder="Location"
             value={formData.location}
             onChange={handleChange}
